@@ -119,7 +119,7 @@ services:
     container_name: connect
     hostname: connect
     ports:
-      - "8083:8083"
+      - "8086:8086"
     environment:
       - GROUP_ID=1
       - CONFIG_STORAGE_TOPIC=my-connect-configs
